@@ -113,7 +113,7 @@ a {
 }
 
 a:hover {
-  color: var(--primary-color);
+  color: var(#ffffff);
 }
 
 .section-padding {
@@ -437,6 +437,9 @@ strong {
 /*---------------------------------------
   TIMELINE               
 -----------------------------------------*/
+.title{
+  color: #b8965b;
+}
 .timeline,
 .timeline-nodes {
   position: relative;
