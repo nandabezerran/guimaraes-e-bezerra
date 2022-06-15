@@ -864,7 +864,11 @@ strong {
     height: 320px;
   }
 }
-
+@media screen and (max-width: 991px) {
+  .logo{
+    display:none;
+  }
+}
 @media screen and (max-width: 767px) {
   .heroText {
     padding: 1.5rem;
