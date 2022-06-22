@@ -26,15 +26,37 @@
 
         <link href="css/style.css" rel="stylesheet">
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-232189357-1">
-        </script>
+        <!-- Global site tag (gtag.js) - Google Ads: 10929896207 -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10929896207"></script>
         <script>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
 
+            gtag('config', 'AW-10929896207');
             gtag('config', 'UA-232189357-1');
+        </script>
+
+          <!-- Event snippet for whatsapp leticia conversion page -->
+        <script>
+            window.addEventListener('DOMContentLoaded', function(){
+                document.querySelector('a[href*="http://api.whatsapp.com/send?1=pt_BR&phone=5585997106064"]').addEventListener('click',function(){
+            console.log('click whatsapp');
+        
+            gtag('event', 'whatsapp_Leticia', {'send_to': 'AW-10929896207/wnJOCJ-uicgDEI_249so'});; 
+        });
+            });
+        </script>
+
+         <!-- Event snippet for Whatsapp Socrates conversion page -->
+        <script>
+            window.addEventListener('DOMContentLoaded', function(){
+            document.querySelector('a[href*="http://api.whatsapp.com/send?1=pt_BR&phone=5585996377199"]').addEventListener('click',function(){
+            console.log('click whatsapp');
+        
+            gtag('event', 'whatsapp', {'send_to': 'AW-10929896207/82lOCIG3icgDEI_249so'});; 
+        });
+            });
         </script>
 <!--
 
